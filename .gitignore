@@ -1,1 +1,1 @@
-*.{onnx,plan,engine}
+*.[onnx,plan,engine]
