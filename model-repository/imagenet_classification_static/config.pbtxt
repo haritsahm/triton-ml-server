@@ -8,11 +8,10 @@ max_batch_size: 0
 input {
   name: "input"
   data_type: TYPE_FP32
-  format: FORMAT_NCHW
   dims: 1
   dims: 3
-  dims: 416
-  dims: 416
+  dims: 384
+  dims: 384
 }
 output {
   name: "output"
@@ -34,8 +33,8 @@ model_warmup {
       data_type: TYPE_FP32
       dims: 1
       dims: 3
-      dims: 416
-      dims: 416
+      dims: 384
+      dims: 384
       zero_data: true
     }
   }
